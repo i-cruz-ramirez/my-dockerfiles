@@ -36,11 +36,6 @@ services:
       - ./:/var/www
       - ./conf/nginx/conf.d/:/etc/nginx/conf.d/
 
-  front:
-
-  crpn:
-
-
   #MySQL Service
   db:
     image: mysql:5.7.22
