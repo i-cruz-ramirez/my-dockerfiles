@@ -30,4 +30,4 @@ FROM nginx:1.13.7-alpine
 
 COPY --from=node /to-do-app/dist/ /usr/share/nginx/html
 
-COPY ./nginx-to-do-app.conf /etc/nginx/conf.d/default.conf
+COPY ./conf/app.conf /etc/nginx/conf.d/default.conf
