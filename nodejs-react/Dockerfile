@@ -1,7 +1,7 @@
 #==================== Building Stage ================================================ 
 
 # Create the image based on the official Node 8.9.0 image from Dockerhub
-FROM node:8.9.0 as node
+FROM node:alpine as node
 
 # Create a directory where our app will be placed. This might not be necessary
 RUN mkdir -p /to-do-app
