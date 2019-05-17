@@ -21,6 +21,10 @@ COPY . /to-do-app
 # Expose the port the app runs in
 EXPOSE 4200
 
+# Set environment variables
+ARG NODE_ENV
+ENV NODE_ENV $NODE_ENV
+
 #Build the app
 RUN npm run build
 
