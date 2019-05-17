@@ -2,7 +2,7 @@
 
 ```sh
 # Build the image 
-docker build -t project/name
+docker build -t project/name --build-arg NODE_ENV=development
 
 # Run the image 
 docker run -p 80:80 project/name
