@@ -1,4 +1,4 @@
-# Clone the laravel app and move all files in this folder to the cloned repository
+- Clone the laravel app and move all files in this folder to the cloned repository
 
 ## First Time Setup
 
