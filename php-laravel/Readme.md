@@ -13,6 +13,12 @@ $ mv ./  /path/to/laravel-app/
 docker run --rm -v $(pwd):/app composer install
 ```
 
+## Put up and running 
+```sh
+docker-compose up
+```
+
+
 ## Gemerate Key
 
 ```sh
